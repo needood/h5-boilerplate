@@ -1,0 +1,8 @@
+{
+    "presets": [
+        ["env", {
+            "loose": true
+        }]
+    ],
+    "plugins": ["transform-es5-property-mutators", "transform-es3-member-expression-literals", "transform-es3-property-literals"]
+}
