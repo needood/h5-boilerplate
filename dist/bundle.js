@@ -95,9 +95,6 @@ var a = document.createElement('div');
 a.className = _demoCss2["default"].main;
 a.innerText = "it's demo.html";
 document.body.appendChild(a);
-var b = document.createElement('div');
-b.innerText = "it's demo.html";
-document.body.appendChild(b);
 
 /***/ }),
 /* 1 */
@@ -2638,8 +2635,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js??ref--1-1!../node_modules/postcss-loader/index.js!./demo.css", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js??ref--1-1!../node_modules/postcss-loader/index.js!./demo.css");
+		module.hot.accept("!!../../node_modules/css-loader/index.js??ref--1-1!../../node_modules/postcss-loader/index.js!./demo.css", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js??ref--1-1!../../node_modules/postcss-loader/index.js!./demo.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
