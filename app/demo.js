@@ -1,4 +1,3 @@
-import "./css/demo.css"
 import testObj from "./css/demo.css"
 const a = document.createElement('div');
 a.className = testObj.main
