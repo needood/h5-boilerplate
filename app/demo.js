@@ -1,5 +1,5 @@
 import "./css/demo.css"
-import testObj from "./css/demo.css.json"
+import testObj from "./css/demo.css"
 const a = document.createElement('div');
 a.className = testObj.main
 a.innerText = "it's demo.html"

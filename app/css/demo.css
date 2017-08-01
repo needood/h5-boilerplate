@@ -1,6 +1,6 @@
 body{
 	color:red;
 }
-.main{
+:local .main{
 	color:green;
 }
